@@ -4,10 +4,10 @@ import './FS.style.css'
 const FirstSection = () => {
   return (
     <main>
-      <div className="section">
+      <div className="first-section">
         <div className="section-background">
           <div className="section-title">
-            <h1>
+            <h1 className='first-title'>
               Образовательная платформа <br />
               ХОД Future Academy
             </h1>
