@@ -37,8 +37,8 @@ h1{
     line-height: 44px;
 }
 
-@media all and (width:320px;) {
+/* @media all and (width:320px) {
     .section{
         background-image: url;
     }
-}
+} */
