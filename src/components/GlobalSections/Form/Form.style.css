@@ -56,7 +56,7 @@ input{
 } 
 .form-box__submit{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     margin-top: 18px;
 }
 .form-btn{

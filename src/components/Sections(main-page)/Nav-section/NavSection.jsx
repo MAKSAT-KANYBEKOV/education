@@ -1,6 +1,7 @@
 import React from 'react'
 import './NS.style.css'
 import ownImage from './NS.img/own.png'
+import ownadImage from './NS.img/ownad.png'
 import { nav, btn } from './NS.db'
 
 const Section = () => {
@@ -9,9 +10,10 @@ const Section = () => {
       <div className="container">
         <div className="nav-content">
           <div className="nav-section__box">
+            <div className="nav-img__adaptiv"><img src={ownadImage} alt=""  className='nav-adaptiv__img'/></div>
           <div className="nav-img__box"><img  className='nav-img' src={ownImage} alt="" /></div>
         <p className='nav-question'>
-          Кем вы хотите стать? <br /><br /> <br /> Пора найти себя и выбрать подходящий курс :) <br />  <br />
+          Кем вы хотите стать? <br /> <br /> Пора найти себя и выбрать подходящий курс :) <br />  <br />
           Удачи!
         </p>
           </div>

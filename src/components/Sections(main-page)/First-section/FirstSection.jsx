@@ -5,7 +5,8 @@ const FirstSection = () => {
   return (
     <main>
       <div className="first-section">
-        <div className="section-background">
+        <div className="section-background"></div>
+        <div className="section-info">
           <div className="section-title">
             <h1 className='first-title'>
               Образовательная платформа <br />
@@ -15,7 +16,9 @@ const FirstSection = () => {
               Актуальные знания для новичков и профессионалов
             </p>
           </div>
-        </div>
+        
+        </div> 
+         <div className="adaptiv-background"></div>
       </div>
     </main>
   )
