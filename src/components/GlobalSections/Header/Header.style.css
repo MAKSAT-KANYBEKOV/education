@@ -1,0 +1,129 @@
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+.logo-adaptiv{
+  display: none;
+}
+.adaptiv-burger{
+  display: none;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  list-style-type: none;
+  display: flex;
+}
+.header-nav li a {
+  text-decoration: none;
+  margin-right: 40px;
+  margin-left: 6px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.header-button {
+  display: flex;
+  align-items: center;
+}
+/*  */
+
+.header__select {
+  position: relative;
+  margin: 0 25px 0 0;
+}
+.header__select::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: 180px;
+  width: 8px;
+  height: 8px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  transform: rotate(45deg);
+  z-index: 1;
+  pointer-events: none;
+}
+.header-select__img{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.header-select {
+  background: none;
+  border: 0;
+  appearance: none;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: underline;
+  padding: 10px 30px 10px 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+
+
+/*  */
+.button-login {
+  margin-left: 8px;
+  text-decoration: none;
+  color: #000;
+}
+
+
+@media all and (max-width:320px) {
+  header{
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+  }
+  .header-content{
+    max-width: 320px;
+    height: 60px;
+    background-color: #00093C;
+  }
+  .header-adaptiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo-adaptiv{
+    display: block;
+    margin-left: 10px;
+  }
+  .adaptiv-burger{
+    display: flex;
+    flex-direction: column;
+  }
+  .adaptiv-burger__item{
+    width: 19px;
+    background-color: #fff;
+    border: 1px solid #FFFFFF;
+    margin-top: 2px;
+  }
+  .logo{
+    display: none;
+  }
+  .header-nav{
+    display: none;
+  }
+  .header-select__img{
+    display: none;
+  }
+  .header-select{
+    display: none;
+  }
+  .header-button{
+    display: none;
+  }
+}
